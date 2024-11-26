@@ -129,12 +129,12 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "New Utility Design",
       "menuLink": "/blog",
       "category": null
     },
     {
-      "menuLabel": "About",
+      "menuLabel": "Committee",
       "menuLink": "/about",
       "category": null
     }
