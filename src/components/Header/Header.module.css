@@ -7,7 +7,6 @@
 }
 
 .iconButton {
-    display: none;
   border: none;
   background-color: unset;
   overflow: visible;
@@ -47,6 +46,7 @@
 }
 
 .navLink {
+       display: none;
     margin-right: 40px;
     text-transform: uppercase;
     color: var(--standard-black);
