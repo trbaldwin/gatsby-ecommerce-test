@@ -7,6 +7,7 @@
 }
 
 .iconButton {
+    display: none;
   border: none;
   background-color: unset;
   overflow: visible;
