@@ -31,9 +31,9 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Essentials for a cold winter'}
-        subtitle={'Discover Autumn Winter 2024'}
-        ctaText={'shop now'}
+        title={'New Utility Design Committee'}
+        subtitle={'Now accepting commissions'}
+        ctaText={'get in touch'}
         ctaAction={goToShop}
       />
 
