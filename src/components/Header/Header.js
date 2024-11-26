@@ -19,7 +19,7 @@ import * as styles from './Header.module.css';
 const Header = (prop) => {
   const [showMiniCart, setShowMiniCart] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   const [menu, setMenu] = useState();
   const [activeMenu, setActiveMenu] = useState();
@@ -28,7 +28,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Shipping worldwide';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -37,7 +37,7 @@ const Header = (prop) => {
 
   const handleHover = (navObject) => {
     if (navObject.category) {
-      setShowMenu(true);
+      setShowMenu(false);
       setMenu(navObject.category);
       setShowSearch(false);
     } else {
