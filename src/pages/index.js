@@ -56,7 +56,7 @@ const IndexPage = () => {
           <ProductCollectionGrid />
         </Container>
       </div>
-
+/*
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
@@ -70,7 +70,7 @@ const IndexPage = () => {
           />
         </Container>
       </div>
-
+*/
       {/* Highlight  */}
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
@@ -104,7 +104,7 @@ const IndexPage = () => {
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
-
+/*
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
@@ -141,6 +141,7 @@ const IndexPage = () => {
         </div>
       </div>
       <AttributeGrid />
+*/
     </Layout>
   );
 };
