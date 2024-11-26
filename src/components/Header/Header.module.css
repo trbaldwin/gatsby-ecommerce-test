@@ -46,7 +46,6 @@
 }
 
 .navLink {
-       display: none;
     margin-right: 40px;
     text-transform: uppercase;
     color: var(--standard-black);
@@ -64,7 +63,7 @@
 }
 
 .actionContainers {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: end;
 }
