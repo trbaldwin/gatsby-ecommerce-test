@@ -29,10 +29,10 @@ const IndexPage = () => {
     <Layout disablePaddingBottom>
       {/* Hero Container */}
       <Hero
-        maxWidth={'500px'}
+        maxWidth={'600px'}
         image={'/banner1.png'}
         title={'New Utility Design Committee'}
-        subtitle={'Now accepting commissions'}
+        subtitle={'Now seeking commissions'}
         ctaText={'get in touch'}
         ctaAction={goToShop}
       />
